@@ -1,0 +1,166 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/home/santhosh/Documents/SV_Projects/APB_RAM
+T_opt
+!s11d apb_ram_tb_sv_unit /home/santhosh/Documents/SV_Projects/APB_RAM/work 1 apb_if 1 /home/santhosh/Documents/SV_Projects/APB_RAM/work 
+!s110 1701746705
+Vm:e9aCA=P9aDGXg?MD=9i3
+04 2 4 work tb fast 0
+=1-000ae431a4f1-656e9811-c2e4c-1214
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+OL;O;2021.2_1;73
+R1
+Yabp_if
+Z3 !s105 apb_ram_tb_sv_unit
+DXx4 work 18 apb_ram_tb_sv_unit 0 22 gE3b=Adm[]iWNmg2XQMdP1
+Z4 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+!s110 1701709303
+!i10b 1
+!s100 jLe;goF1X_]5:n4eRRV6K1
+IioH9f3CV2QJ>kNN0I;h3M0
+S1
+R1
+w1701489328
+Z5 8apb_ram.sv
+Z6 Fapb_ram.sv
+!i122 12
+Z7 L0 85 0
+Z8 VDg1SIo80bB@j0V0VzS_@n1
+Z9 OL;L;2021.2_1;73
+r1
+!s85 0
+31
+!s108 1701709303.000000
+!s107 apb_ram_drv.sv|apb_ram_gen.sv|apb_ram_trans.sv|apb_ram.sv|apb_ram_tb.sv|
+!s90 -reportprogress|300|apb_ram_tb.sv|
+!i113 0
+Z10 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+Yapb_if
+R3
+Z11 DXx4 work 18 apb_ram_tb_sv_unit 0 22 9TcTIK?J@30c=NTB9?:4S1
+R4
+Z12 !s110 1701747124
+!i10b 1
+!s100 =;HS_ZhhZbo9FCPRPd?3T0
+I<^Ib[[PZGV`O_4<[OJgW@2
+S1
+R1
+Z13 w1701709470
+R5
+R6
+!i122 20
+R7
+R8
+R9
+r1
+!s85 0
+31
+Z14 !s108 1701747123.000000
+!s107 apb_ram_env.sv|apb_ram_sco.sv|apb_ram_mon.sv|apb_ram_drv.sv|apb_ram_gen.sv|apb_ram_trans.sv|apb_ram.sv|apb_ram_tb.sv|
+Z15 !s90 apb_ram_tb.sv|
+!i113 0
+R10
+R2
+vapb_ram
+R3
+R11
+R4
+R12
+!i10b 1
+!s100 JQm]<Q^Fgb^5BloKa=1h<1
+IQFNMVmXBh3__o6O:Dd[7V3
+S1
+R1
+R13
+R5
+R6
+!i122 20
+L0 1 84
+R8
+R9
+r1
+!s85 0
+31
+R14
+Z16 !s107 apb_ram_env.sv|apb_ram_sco.sv|apb_ram_mon.sv|apb_ram_drv.sv|apb_ram_gen.sv|apb_ram_trans.sv|apb_ram.sv|apb_ram_tb.sv|
+R15
+!i113 0
+R10
+R2
+Xapb_ram_tb_sv_unit
+!s115 apb_if
+R4
+R12
+V9TcTIK?J@30c=NTB9?:4S1
+r1
+!s85 0
+!i10b 1
+!s100 :QS`@I_TfDESV@[SQ3Oid1
+I9TcTIK?J@30c=NTB9?:4S1
+!i103 1
+S1
+R1
+w1701746692
+Z17 8apb_ram_tb.sv
+Z18 Fapb_ram_tb.sv
+R6
+Fapb_ram_trans.sv
+Fapb_ram_gen.sv
+Fapb_ram_drv.sv
+Fapb_ram_mon.sv
+Fapb_ram_sco.sv
+Fapb_ram_env.sv
+!i122 20
+L0 1 0
+R9
+31
+R14
+R16
+R15
+!i113 0
+R10
+R2
+vtb
+R4
+R11
+R12
+R8
+r1
+!s85 0
+!i10b 1
+!s100 JjeKN6d<L[9<DjEc[ITZY2
+IciE>>SSXn`UhF^A=ca^Lo0
+R3
+S1
+R1
+w1701746310
+R17
+R18
+!i122 20
+L0 63 18
+R9
+31
+R14
+R16
+R15
+!i113 0
+R10
+R2

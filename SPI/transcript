@@ -1,0 +1,152 @@
+# do run.do
+# QuestaSim-64 vlog 2021.2_1 Compiler 2021.05 May 15 2021
+# Start time: 07:04:19 on Nov 02,2023
+# vlog spi_tb.sv 
+# -- Compiling module spi
+# -- Compiling interface spi_if
+# -- Compiling package spi_tb_sv_unit
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 07:04:19 on Nov 02,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" tb 
+# Start time: 07:04:19 on Nov 02,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vopt-143) Recognized 1 FSM in module "spi(fast)".
+# //  Questa Sim-64
+# //  Version 2021.2_1 linux_x86_64 May 15 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.spi_tb_sv_unit(fast)
+# Loading work.tb(fast)
+# Loading work.spi_if(fast__2)
+# Loading work.spi(fast)
+# Loading work.spi_if(fast)
+# Unable to lock WLF file "vsim.wlf". Retrying 1 times, errno 11
+# Unable to lock WLF file "vsim.wlf". Retrying 2 times, errno 11
+# Unable to lock WLF file "vsim.wlf". Retrying 3 times, errno 11
+# Cannot lock WLF file: "vsim.wlf"
+#           errno 11: Resource temporarily unavailable.
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: santhosh  Hostname: santhosh  ProcessID: 4857
+#           Attempting to use alternate WLF file "./wlftlBUZPH".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftlBUZPH
+# [DRV]: reset done
+# [GEN]: din: 3189, newd : 0, cs : 0, mosi : 0
+# [DRV] data sent: 3189
+# [MON]: data:3189
+# [SCO] drv data: 3189 mon data: 3189
+# [SCO]: data mathched
+# [GEN]: din: 2596, newd : 0, cs : 0, mosi : 0
+# [DRV] data sent: 2596
+# [MON]: data:2596
+# [SCO] drv data: 2596 mon data: 2596
+# [SCO]: data mathched
+# [GEN]: din: 1946, newd : 0, cs : 0, mosi : 0
+# [DRV] data sent: 1946
+# [MON]: data:1946
+# [SCO] drv data: 1946 mon data: 1946
+# [SCO]: data mathched
+# [GEN]: din: 204, newd : 0, cs : 0, mosi : 0
+# [DRV] data sent: 204
+# [MON]: data:204
+# [SCO] drv data: 204 mon data: 204
+# [SCO]: data mathched
+# [GEN]: din: 1976, newd : 1, cs : 0, mosi : 0
+# [DRV] data sent: 1976
+# [MON]: data:1976
+# [SCO] drv data: 1976 mon data: 1976
+# [SCO]: data mathched
+# [GEN]: din: 595, newd : 1, cs : 0, mosi : 0
+# [DRV] data sent: 595
+# [MON]: data:595
+# [SCO] drv data: 595 mon data: 595
+# [SCO]: data mathched
+# [GEN]: din: 3402, newd : 1, cs : 0, mosi : 0
+# [DRV] data sent: 3402
+# [MON]: data:3402
+# [SCO] drv data: 3402 mon data: 3402
+# [SCO]: data mathched
+# [GEN]: din: 3512, newd : 0, cs : 0, mosi : 0
+# [DRV] data sent: 3512
+# [MON]: data:3512
+# [SCO] drv data: 3512 mon data: 3512
+# [SCO]: data mathched
+# [GEN]: din: 700, newd : 0, cs : 0, mosi : 0
+# [DRV] data sent: 700
+# [MON]: data:700
+# [SCO] drv data: 700 mon data: 700
+# [SCO]: data mathched
+# [GEN]: din: 1873, newd : 0, cs : 0, mosi : 0
+# [DRV] data sent: 1873
+# [MON]: data:1873
+# [SCO] drv data: 1873 mon data: 1873
+# [SCO]: data mathched
+# [GEN]: din: 597, newd : 0, cs : 0, mosi : 0
+# [DRV] data sent: 597
+# [MON]: data:597
+# [SCO] drv data: 597 mon data: 597
+# [SCO]: data mathched
+# [GEN]: din: 3486, newd : 1, cs : 0, mosi : 0
+# [DRV] data sent: 3486
+# [MON]: data:3486
+# [SCO] drv data: 3486 mon data: 3486
+# [SCO]: data mathched
+# [GEN]: din: 2079, newd : 1, cs : 0, mosi : 0
+# [DRV] data sent: 2079
+# [MON]: data:2079
+# [SCO] drv data: 2079 mon data: 2079
+# [SCO]: data mathched
+# [GEN]: din: 3948, newd : 1, cs : 0, mosi : 0
+# [DRV] data sent: 3948
+# [MON]: data:3948
+# [SCO] drv data: 3948 mon data: 3948
+# [SCO]: data mathched
+# [GEN]: din: 3968, newd : 1, cs : 0, mosi : 0
+# [DRV] data sent: 3968
+# [MON]: data:3968
+# [SCO] drv data: 3968 mon data: 3968
+# [SCO]: data mathched
+# [GEN]: din: 2719, newd : 1, cs : 0, mosi : 0
+# [DRV] data sent: 2719
+# [MON]: data:2719
+# [SCO] drv data: 2719 mon data: 2719
+# [SCO]: data mathched
+# [GEN]: din: 511, newd : 0, cs : 0, mosi : 0
+# [DRV] data sent: 511
+# [MON]: data:511
+# [SCO] drv data: 511 mon data: 511
+# [SCO]: data mathched
+# [GEN]: din: 261, newd : 1, cs : 0, mosi : 0
+# [DRV] data sent: 261
+# [MON]: data:261
+# [SCO] drv data: 261 mon data: 261
+# [SCO]: data mathched
+# [GEN]: din: 6, newd : 1, cs : 0, mosi : 0
+# [DRV] data sent: 6
+# [MON]: data:6
+# [SCO] drv data: 6 mon data: 6
+# [SCO]: data mathched
+# [GEN]: din: 2839, newd : 1, cs : 0, mosi : 0
+# [DRV] data sent: 2839
+# [MON]: data:2839
+# [SCO] drv data: 2839 mon data: 2839
+# [SCO]: data mathched
+# ** Note: $finish    : spi_env.sv(41)
+#    Time: 611170 ns  Iteration: 5  Instance: /tb
+# End time: 07:04:26 on Nov 02,2023, Elapsed time: 0:00:07
+# Errors: 0, Warnings: 2

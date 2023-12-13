@@ -1,0 +1,134 @@
+m255
+K4
+z2
+!s99 nomlopt
+!s11f vlog 2021.2_1 2021.05, May 15 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/santhosh/Documents/SV_Projects/D_FF
+T_opt
+!s11d dff_tb_sv_unit /home/santhosh/Documents/SV_Projects/D_FF/work 1 dff_if 1 /home/santhosh/Documents/SV_Projects/D_FF/work 
+!s110 1699406788
+V1iK`]lcT3_AJ5P4i[GEP13
+04 2 4 work tb fast 0
+=1-000ae431a4f1-654ae3c4-6cc9-1ae2
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2021.2_1;73
+vdff
+Z2 !s105 dff_tb_sv_unit
+Z3 DXx4 work 14 dff_tb_sv_unit 0 22 OagJkI2MjhialZlQfGVa30
+Z4 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z5 !s110 1699406787
+!i10b 1
+!s100 no:>VLHbT6@359ZlebffG3
+IYbo[S<PjWXD<lFTMZ;n:T2
+S1
+R0
+Z6 w1698549764
+Z7 8dff.sv
+Z8 Fdff.sv
+!i122 0
+L0 1 8
+Z9 VDg1SIo80bB@j0V0VzS_@n1
+Z10 OL;L;2021.2_1;73
+r1
+!s85 0
+31
+Z11 !s108 1699406787.000000
+Z12 !s107 dff_env.sv|dff_sco.sv|dff_mon.sv|dff_drv.sv|dff_gen.sv|dff_trans.sv|dff.sv|dff_tb.sv|
+Z13 !s90 -reportprogress|300|dff_tb.sv|
+!i113 0
+Z14 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+Ydff_if
+R2
+R3
+R4
+R5
+!i10b 1
+!s100 TcFC@=kX_`h=9DiTE?0?l3
+I<PE^<2zf2GlLYNdoKSlMQ3
+S1
+R0
+R6
+R7
+R8
+!i122 0
+L0 9 0
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R1
+Xdff_tb_sv_unit
+!s115 dff_if
+R4
+R5
+VOagJkI2MjhialZlQfGVa30
+r1
+!s85 0
+!i10b 1
+!s100 jzMc8?La3aZ81]K@l@nKo2
+IOagJkI2MjhialZlQfGVa30
+!i103 1
+S1
+R0
+Z15 w1699406485
+Z16 8dff_tb.sv
+Z17 Fdff_tb.sv
+R8
+Fdff_trans.sv
+Fdff_gen.sv
+Fdff_drv.sv
+Fdff_mon.sv
+Fdff_sco.sv
+Fdff_env.sv
+!i122 0
+L0 1 0
+R10
+31
+R11
+R12
+R13
+!i113 0
+R14
+R1
+vtb
+R4
+R3
+R5
+R9
+r1
+!s85 0
+!i10b 1
+!s100 KOBfVL>Pzb1_@c^IC[6CR1
+IaFQ<fBX2;eLhbNe[WjK@k1
+R2
+S1
+R0
+R15
+R16
+R17
+!i122 0
+L0 8 18
+R10
+31
+R11
+R12
+R13
+!i113 0
+R14
+R1

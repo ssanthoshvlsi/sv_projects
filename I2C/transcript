@@ -1,0 +1,395 @@
+# //  Questa Sim-64
+# //  Version 2021.2_1 linux_x86_64 May 15 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+do run.do
+# QuestaSim-64 vlog 2021.2_1 Compiler 2021.05 May 15 2021
+# Start time: 00:52:49 on Nov 15,2023
+# vlog -reportprogress 300 i2c_tb.sv 
+# -- Compiling module eeprom
+# -- Compiling module i2cmem
+# -- Compiling module i2c
+# -- Compiling interface i2c_if
+# ** Error: i2c_tb.sv(3): Cannot find `include file "i2_trans.sv" in directories:
+#     /home/santhosh/questasim/ovm-2.1.2/../verilog_src/ovm-2.1.2/src, /home/santhosh/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src
+# ** Error: i2c_tb.sv(4): Cannot find `include file "i2_gen.sv" in directories:
+#     /home/santhosh/questasim/ovm-2.1.2/../verilog_src/ovm-2.1.2/src, /home/santhosh/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src
+# ** Error: i2c_tb.sv(5): Cannot find `include file "i2_drv.sv" in directories:
+#     /home/santhosh/questasim/ovm-2.1.2/../verilog_src/ovm-2.1.2/src, /home/santhosh/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src
+# ** Error: i2c_tb.sv(6): Cannot find `include file "i2_mon.sv" in directories:
+#     /home/santhosh/questasim/ovm-2.1.2/../verilog_src/ovm-2.1.2/src, /home/santhosh/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src
+# ** Error: i2c_tb.sv(7): Cannot find `include file "i2_sco.sv" in directories:
+#     /home/santhosh/questasim/ovm-2.1.2/../verilog_src/ovm-2.1.2/src, /home/santhosh/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src
+# End time: 00:52:49 on Nov 15,2023, Elapsed time: 0:00:00
+# Errors: 5, Warnings: 0
+# ** Error: /home/santhosh/questasim/linux_x86_64/vlog failed.
+# Error in macro ./run.do line 1
+# /home/santhosh/questasim/linux_x86_64/vlog failed.
+#     while executing
+# "vlog i2c_tb.sv"
+do run.do
+# QuestaSim-64 vlog 2021.2_1 Compiler 2021.05 May 15 2021
+# Start time: 00:53:46 on Nov 15,2023
+# vlog -reportprogress 300 i2c_tb.sv 
+# -- Compiling module eeprom
+# -- Compiling module i2cmem
+# -- Compiling module i2c
+# -- Compiling interface i2c_if
+# ** Error: ** while parsing file included at i2c_tb.sv(3)
+# ** at i2c_trans.sv(1): Typedef 'transaction' multiply defined.
+# ** Error: (vlog-13069) ** while parsing file included at i2c_tb.sv(4)
+# ** at i2c_gen.sv(9): near "==": syntax error, unexpected ==.
+# End time: 00:53:46 on Nov 15,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: /home/santhosh/questasim/linux_x86_64/vlog failed.
+# Error in macro ./run.do line 1
+# /home/santhosh/questasim/linux_x86_64/vlog failed.
+#     while executing
+# "vlog i2c_tb.sv"
+do run.do
+# QuestaSim-64 vlog 2021.2_1 Compiler 2021.05 May 15 2021
+# Start time: 00:57:11 on Nov 15,2023
+# vlog -reportprogress 300 i2c_tb.sv 
+# -- Compiling module eeprom
+# -- Compiling module i2cmem
+# -- Compiling module i2c
+# -- Compiling interface i2c_if
+# ** Error: ** while parsing file included at i2c_tb.sv(3)
+# ** at i2c_trans.sv(1): Typedef 'transaction' multiply defined.
+# End time: 00:57:11 on Nov 15,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: /home/santhosh/questasim/linux_x86_64/vlog failed.
+# Error in macro ./run.do line 1
+# /home/santhosh/questasim/linux_x86_64/vlog failed.
+#     while executing
+# "vlog i2c_tb.sv"
+do run.do
+# QuestaSim-64 vlog 2021.2_1 Compiler 2021.05 May 15 2021
+# Start time: 01:00:15 on Nov 15,2023
+# vlog -reportprogress 300 i2c_tb.sv 
+# -- Compiling module eeprom
+# -- Compiling module i2cmem
+# -- Compiling module i2c
+# -- Compiling interface i2c_if
+# ** Error: ** while parsing file included at i2c_tb.sv(3)
+# ** at i2c_trans.sv(1): Typedef 'transaction' multiply defined.
+# End time: 01:00:15 on Nov 15,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: /home/santhosh/questasim/linux_x86_64/vlog failed.
+# Error in macro ./run.do line 3
+# /home/santhosh/questasim/linux_x86_64/vlog failed.
+#     while executing
+# "vlog i2c_tb.sv"
+do run.do
+# QuestaSim-64 vlog 2021.2_1 Compiler 2021.05 May 15 2021
+# Start time: 01:01:04 on Nov 15,2023
+# vlog -reportprogress 300 i2c_tb.sv 
+# -- Compiling module eeprom
+# -- Compiling module i2cmem
+# -- Compiling module i2c
+# -- Compiling interface i2c_if
+# -- Compiling package i2c_tb_sv_unit
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 01:01:05 on Nov 15,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" tb 
+# Start time: 01:01:05 on Nov 15,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vopt-143) Recognized 2 FSMs in module "eeprom(fast)".
+# ** Note: (vopt-143) Recognized 2 FSMs in module "i2cmem(fast)".
+# Loading sv_std.std
+# Loading work.i2c_tb_sv_unit(fast)
+# Loading work.tb(fast)
+# Loading work.i2c_if(fast__2)
+# Loading work.i2c(fast)
+# Loading work.eeprom(fast)
+# Loading work.i2cmem(fast)
+# Loading work.i2c_if(fast)
+# ** Error: Unrecognized dataset prefix: vsim
+# Error in macro ./run.do line 14
+# Unrecognized dataset prefix: vsim
+#     while executing
+# "add wave vsim:/tb/*"
+do run.do
+# QuestaSim-64 vlog 2021.2_1 Compiler 2021.05 May 15 2021
+# Start time: 01:02:11 on Nov 15,2023
+# vlog -reportprogress 300 i2c_tb.sv 
+# -- Compiling module eeprom
+# -- Compiling module i2cmem
+# -- Compiling module i2c
+# -- Compiling interface i2c_if
+# -- Compiling package i2c_tb_sv_unit
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 01:02:11 on Nov 15,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 01:02:11 on Nov 15,2023, Elapsed time: 0:01:06
+# Errors: 1, Warnings: 0
+# vsim -voptargs="+acc" tb 
+# Start time: 01:02:11 on Nov 15,2023
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.i2c_tb_sv_unit(fast)
+# Loading work.tb(fast)
+# Loading work.i2c_if(fast__2)
+# Loading work.i2c(fast)
+# Loading work.eeprom(fast)
+# Loading work.i2cmem(fast)
+# Loading work.i2c_if(fast)
+# [DRV]: reset done
+# [GEN]: WR: 0 WDATA: 172 ADDR: 4 RDATA: 0 DONE: 0
+# [DRV]: wr: 0 wdata: 172 waddr: 4 rdata: 145
+# [MON] data read-> waddr: 4 rdata: 145
+# [SCO]: WR: 0 WDATA: 172 ADDR: 4 RDATA: 145 DONE: 0
+# [SCO]: data read-> data matched
+# [GEN]: WR: 0 WDATA: 165 ADDR: 3 RDATA: 0 DONE: 0
+# [DRV]: wr: 0 wdata: 165 waddr: 3 rdata: 145
+# [MON] data read-> waddr: 3 rdata: 145
+# [SCO]: WR: 0 WDATA: 165 ADDR: 3 RDATA: 145 DONE: 0
+# [SCO]: data read-> data matched
+# [GEN]: WR: 1 WDATA: 190 ADDR: 4 RDATA: 0 DONE: 0
+# [DRV]: wr: 1 wdata: 190 waddr: 4 rdata: 145
+# [MON] data write-> wdata: 190 waddr: 4
+# [SCO]: WR: 1 WDATA: 190 ADDR: 4 RDATA: 145 DONE: 0
+# [SCO]: data stored-> addr: 4 data: 190
+# [GEN]: WR: 0 WDATA: 198 ADDR: 1 RDATA: 0 DONE: 0
+# [DRV]: wr: 0 wdata: 198 waddr: 1 rdata: 145
+# [MON] data read-> waddr: 1 rdata: 145
+# [SCO]: WR: 0 WDATA: 198 ADDR: 1 RDATA: 145 DONE: 0
+# [SCO]: data read-> data matched
+# [GEN]: WR: 1 WDATA: 190 ADDR: 4 RDATA: 0 DONE: 0
+# [DRV]: wr: 1 wdata: 190 waddr: 4 rdata: 145
+# [MON] data write-> wdata: 190 waddr: 4
+# [SCO]: WR: 1 WDATA: 190 ADDR: 4 RDATA: 145 DONE: 0
+# [SCO]: data stored-> addr: 4 data: 190
+# [GEN]: WR: 1 WDATA: 141 ADDR: 1 RDATA: 0 DONE: 0
+# [DRV]: wr: 1 wdata: 141 waddr: 1 rdata: 145
+# [MON] data write-> wdata: 141 waddr: 1
+# [SCO]: WR: 1 WDATA: 141 ADDR: 1 RDATA: 145 DONE: 0
+# [SCO]: data stored-> addr: 1 data: 141
+# [GEN]: WR: 0 WDATA: 14 ADDR: 4 RDATA: 0 DONE: 0
+# [DRV]: wr: 0 wdata: 14 waddr: 4 rdata: 190
+# [MON] data read-> waddr: 4 rdata: 190
+# [SCO]: WR: 0 WDATA: 14 ADDR: 4 RDATA: 190 DONE: 0
+# [SCO]: data read-> data matched
+# [GEN]: WR: 1 WDATA: 94 ADDR: 4 RDATA: 0 DONE: 0
+# [DRV]: wr: 1 wdata: 94 waddr: 4 rdata: 190
+# [MON] data write-> wdata: 94 waddr: 4
+# [SCO]: WR: 1 WDATA: 94 ADDR: 4 RDATA: 190 DONE: 0
+# [SCO]: data stored-> addr: 4 data: 94
+# [GEN]: WR: 0 WDATA: 95 ADDR: 3 RDATA: 0 DONE: 0
+# [DRV]: wr: 0 wdata: 95 waddr: 3 rdata: 145
+# [MON] data read-> waddr: 3 rdata: 145
+# [SCO]: WR: 0 WDATA: 95 ADDR: 3 RDATA: 145 DONE: 0
+# [SCO]: data read-> data matched
+# [GEN]: WR: 1 WDATA: 52 ADDR: 2 RDATA: 0 DONE: 0
+# [DRV]: wr: 1 wdata: 52 waddr: 2 rdata: 145
+# [MON] data write-> wdata: 52 waddr: 2
+# [SCO]: WR: 1 WDATA: 52 ADDR: 2 RDATA: 145 DONE: 0
+# [SCO]: data stored-> addr: 2 data: 52
+# [GEN]: WR: 1 WDATA: 147 ADDR: 1 RDATA: 0 DONE: 0
+# [DRV]: wr: 1 wdata: 147 waddr: 1 rdata: 145
+# [MON] data write-> wdata: 147 waddr: 1
+# [SCO]: WR: 1 WDATA: 147 ADDR: 1 RDATA: 145 DONE: 0
+# [SCO]: data stored-> addr: 1 data: 147
+# [GEN]: WR: 0 WDATA: 53 ADDR: 3 RDATA: 0 DONE: 0
+# [DRV]: wr: 0 wdata: 53 waddr: 3 rdata: 145
+# [MON] data read-> waddr: 3 rdata: 145
+# [SCO]: WR: 0 WDATA: 53 ADDR: 3 RDATA: 145 DONE: 0
+# [SCO]: data read-> data matched
+# [GEN]: WR: 1 WDATA: 39 ADDR: 1 RDATA: 0 DONE: 0
+# [DRV]: wr: 1 wdata: 39 waddr: 1 rdata: 145
+# [MON] data write-> wdata: 39 waddr: 1
+# [SCO]: WR: 1 WDATA: 39 ADDR: 1 RDATA: 145 DONE: 0
+# [SCO]: data stored-> addr: 1 data: 39
+# [GEN]: WR: 0 WDATA: 45 ADDR: 1 RDATA: 0 DONE: 0
+# [DRV]: wr: 0 wdata: 45 waddr: 1 rdata: 39
+# [MON] data read-> waddr: 1 rdata: 39
+# [SCO]: WR: 0 WDATA: 45 ADDR: 1 RDATA: 39 DONE: 0
+# [SCO]: data read-> data matched
+# [GEN]: WR: 1 WDATA: 68 ADDR: 4 RDATA: 0 DONE: 0
+# [DRV]: wr: 1 wdata: 68 waddr: 4 rdata: 39
+# [MON] data write-> wdata: 68 waddr: 4
+# [SCO]: WR: 1 WDATA: 68 ADDR: 4 RDATA: 39 DONE: 0
+# [SCO]: data stored-> addr: 4 data: 68
+# [GEN]: WR: 0 WDATA: 86 ADDR: 4 RDATA: 0 DONE: 0
+# [DRV]: wr: 0 wdata: 86 waddr: 4 rdata: 68
+# [MON] data read-> waddr: 4 rdata: 68
+# [SCO]: WR: 0 WDATA: 86 ADDR: 4 RDATA: 68 DONE: 0
+# [SCO]: data read-> data matched
+# [GEN]: WR: 1 WDATA: 190 ADDR: 2 RDATA: 0 DONE: 0
+# [DRV]: wr: 1 wdata: 190 waddr: 2 rdata: 68
+# [MON] data write-> wdata: 190 waddr: 2
+# [SCO]: WR: 1 WDATA: 190 ADDR: 2 RDATA: 68 DONE: 0
+# [SCO]: data stored-> addr: 2 data: 190
+# [GEN]: WR: 0 WDATA: 224 ADDR: 2 RDATA: 0 DONE: 0
+# [DRV]: wr: 0 wdata: 224 waddr: 2 rdata: 190
+# [MON] data read-> waddr: 2 rdata: 190
+# [SCO]: WR: 0 WDATA: 224 ADDR: 2 RDATA: 190 DONE: 0
+# [SCO]: data read-> data matched
+# [GEN]: WR: 0 WDATA: 179 ADDR: 3 RDATA: 0 DONE: 0
+# [DRV]: wr: 0 wdata: 179 waddr: 3 rdata: 145
+# [MON] data read-> waddr: 3 rdata: 145
+# [SCO]: WR: 0 WDATA: 179 ADDR: 3 RDATA: 145 DONE: 0
+# [SCO]: data read-> data matched
+# [GEN]: WR: 0 WDATA: 20 ADDR: 3 RDATA: 0 DONE: 0
+# [DRV]: wr: 0 wdata: 20 waddr: 3 rdata: 145
+# [MON] data read-> waddr: 3 rdata: 145
+# [SCO]: WR: 0 WDATA: 20 ADDR: 3 RDATA: 145 DONE: 0
+# [SCO]: data read-> data matched
+# ** Note: $finish    : i2c_tb.sv(49)
+#    Time: 10705 ns  Iteration: 4  Instance: /tb
+# 1
+# Break in Task post_test at i2c_tb.sv line 49
+add wave sim:/tb/dut/*
+add wave sim:/tb/dut/*
+do run.do
+# QuestaSim-64 vlog 2021.2_1 Compiler 2021.05 May 15 2021
+# Start time: 01:03:17 on Nov 15,2023
+# vlog -reportprogress 300 i2c_tb.sv 
+# -- Compiling module eeprom
+# -- Compiling module i2cmem
+# -- Compiling module i2c
+# -- Compiling interface i2c_if
+# -- Compiling package i2c_tb_sv_unit
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 01:03:17 on Nov 15,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 01:03:18 on Nov 15,2023, Elapsed time: 0:01:07
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" tb 
+# Start time: 01:03:18 on Nov 15,2023
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.i2c_tb_sv_unit(fast)
+# Loading work.tb(fast)
+# Loading work.i2c_if(fast__2)
+# Loading work.i2c(fast)
+# Loading work.eeprom(fast)
+# Loading work.i2cmem(fast)
+# Loading work.i2c_if(fast)
+# [DRV]: reset done
+# [GEN]: WR: 0 WDATA: 172 ADDR: 4 RDATA: 0 DONE: 0
+# [DRV]: wr: 0 wdata: 172 waddr: 4 rdata: 145
+# [MON] data read-> waddr: 4 rdata: 145
+# [SCO]: WR: 0 WDATA: 172 ADDR: 4 RDATA: 145 DONE: 0
+# [SCO]: data read-> data matched
+# [GEN]: WR: 0 WDATA: 165 ADDR: 3 RDATA: 0 DONE: 0
+# [DRV]: wr: 0 wdata: 165 waddr: 3 rdata: 145
+# [MON] data read-> waddr: 3 rdata: 145
+# [SCO]: WR: 0 WDATA: 165 ADDR: 3 RDATA: 145 DONE: 0
+# [SCO]: data read-> data matched
+# [GEN]: WR: 1 WDATA: 190 ADDR: 4 RDATA: 0 DONE: 0
+# [DRV]: wr: 1 wdata: 190 waddr: 4 rdata: 145
+# [MON] data write-> wdata: 190 waddr: 4
+# [SCO]: WR: 1 WDATA: 190 ADDR: 4 RDATA: 145 DONE: 0
+# [SCO]: data stored-> addr: 4 data: 190
+# [GEN]: WR: 0 WDATA: 198 ADDR: 1 RDATA: 0 DONE: 0
+# [DRV]: wr: 0 wdata: 198 waddr: 1 rdata: 145
+# [MON] data read-> waddr: 1 rdata: 145
+# [SCO]: WR: 0 WDATA: 198 ADDR: 1 RDATA: 145 DONE: 0
+# [SCO]: data read-> data matched
+# [GEN]: WR: 1 WDATA: 190 ADDR: 4 RDATA: 0 DONE: 0
+# [DRV]: wr: 1 wdata: 190 waddr: 4 rdata: 145
+# [MON] data write-> wdata: 190 waddr: 4
+# [SCO]: WR: 1 WDATA: 190 ADDR: 4 RDATA: 145 DONE: 0
+# [SCO]: data stored-> addr: 4 data: 190
+# [GEN]: WR: 1 WDATA: 141 ADDR: 1 RDATA: 0 DONE: 0
+# [DRV]: wr: 1 wdata: 141 waddr: 1 rdata: 145
+# [MON] data write-> wdata: 141 waddr: 1
+# [SCO]: WR: 1 WDATA: 141 ADDR: 1 RDATA: 145 DONE: 0
+# [SCO]: data stored-> addr: 1 data: 141
+# [GEN]: WR: 0 WDATA: 14 ADDR: 4 RDATA: 0 DONE: 0
+# [DRV]: wr: 0 wdata: 14 waddr: 4 rdata: 190
+# [MON] data read-> waddr: 4 rdata: 190
+# [SCO]: WR: 0 WDATA: 14 ADDR: 4 RDATA: 190 DONE: 0
+# [SCO]: data read-> data matched
+# [GEN]: WR: 1 WDATA: 94 ADDR: 4 RDATA: 0 DONE: 0
+# [DRV]: wr: 1 wdata: 94 waddr: 4 rdata: 190
+# [MON] data write-> wdata: 94 waddr: 4
+# [SCO]: WR: 1 WDATA: 94 ADDR: 4 RDATA: 190 DONE: 0
+# [SCO]: data stored-> addr: 4 data: 94
+# [GEN]: WR: 0 WDATA: 95 ADDR: 3 RDATA: 0 DONE: 0
+# [DRV]: wr: 0 wdata: 95 waddr: 3 rdata: 145
+# [MON] data read-> waddr: 3 rdata: 145
+# [SCO]: WR: 0 WDATA: 95 ADDR: 3 RDATA: 145 DONE: 0
+# [SCO]: data read-> data matched
+# [GEN]: WR: 1 WDATA: 52 ADDR: 2 RDATA: 0 DONE: 0
+# [DRV]: wr: 1 wdata: 52 waddr: 2 rdata: 145
+# [MON] data write-> wdata: 52 waddr: 2
+# [SCO]: WR: 1 WDATA: 52 ADDR: 2 RDATA: 145 DONE: 0
+# [SCO]: data stored-> addr: 2 data: 52
+# [GEN]: WR: 1 WDATA: 147 ADDR: 1 RDATA: 0 DONE: 0
+# [DRV]: wr: 1 wdata: 147 waddr: 1 rdata: 145
+# [MON] data write-> wdata: 147 waddr: 1
+# [SCO]: WR: 1 WDATA: 147 ADDR: 1 RDATA: 145 DONE: 0
+# [SCO]: data stored-> addr: 1 data: 147
+# [GEN]: WR: 0 WDATA: 53 ADDR: 3 RDATA: 0 DONE: 0
+# [DRV]: wr: 0 wdata: 53 waddr: 3 rdata: 145
+# [MON] data read-> waddr: 3 rdata: 145
+# [SCO]: WR: 0 WDATA: 53 ADDR: 3 RDATA: 145 DONE: 0
+# [SCO]: data read-> data matched
+# [GEN]: WR: 1 WDATA: 39 ADDR: 1 RDATA: 0 DONE: 0
+# [DRV]: wr: 1 wdata: 39 waddr: 1 rdata: 145
+# [MON] data write-> wdata: 39 waddr: 1
+# [SCO]: WR: 1 WDATA: 39 ADDR: 1 RDATA: 145 DONE: 0
+# [SCO]: data stored-> addr: 1 data: 39
+# [GEN]: WR: 0 WDATA: 45 ADDR: 1 RDATA: 0 DONE: 0
+# [DRV]: wr: 0 wdata: 45 waddr: 1 rdata: 39
+# [MON] data read-> waddr: 1 rdata: 39
+# [SCO]: WR: 0 WDATA: 45 ADDR: 1 RDATA: 39 DONE: 0
+# [SCO]: data read-> data matched
+# [GEN]: WR: 1 WDATA: 68 ADDR: 4 RDATA: 0 DONE: 0
+# [DRV]: wr: 1 wdata: 68 waddr: 4 rdata: 39
+# [MON] data write-> wdata: 68 waddr: 4
+# [SCO]: WR: 1 WDATA: 68 ADDR: 4 RDATA: 39 DONE: 0
+# [SCO]: data stored-> addr: 4 data: 68
+# [GEN]: WR: 0 WDATA: 86 ADDR: 4 RDATA: 0 DONE: 0
+# [DRV]: wr: 0 wdata: 86 waddr: 4 rdata: 68
+# [MON] data read-> waddr: 4 rdata: 68
+# [SCO]: WR: 0 WDATA: 86 ADDR: 4 RDATA: 68 DONE: 0
+# [SCO]: data read-> data matched
+# [GEN]: WR: 1 WDATA: 190 ADDR: 2 RDATA: 0 DONE: 0
+# [DRV]: wr: 1 wdata: 190 waddr: 2 rdata: 68
+# [MON] data write-> wdata: 190 waddr: 2
+# [SCO]: WR: 1 WDATA: 190 ADDR: 2 RDATA: 68 DONE: 0
+# [SCO]: data stored-> addr: 2 data: 190
+# [GEN]: WR: 0 WDATA: 224 ADDR: 2 RDATA: 0 DONE: 0
+# [DRV]: wr: 0 wdata: 224 waddr: 2 rdata: 190
+# [MON] data read-> waddr: 2 rdata: 190
+# [SCO]: WR: 0 WDATA: 224 ADDR: 2 RDATA: 190 DONE: 0
+# [SCO]: data read-> data matched
+# [GEN]: WR: 0 WDATA: 179 ADDR: 3 RDATA: 0 DONE: 0
+# [DRV]: wr: 0 wdata: 179 waddr: 3 rdata: 145
+# [MON] data read-> waddr: 3 rdata: 145
+# [SCO]: WR: 0 WDATA: 179 ADDR: 3 RDATA: 145 DONE: 0
+# [SCO]: data read-> data matched
+# [GEN]: WR: 0 WDATA: 20 ADDR: 3 RDATA: 0 DONE: 0
+# [DRV]: wr: 0 wdata: 20 waddr: 3 rdata: 145
+# [MON] data read-> waddr: 3 rdata: 145
+# [SCO]: WR: 0 WDATA: 20 ADDR: 3 RDATA: 145 DONE: 0
+# [SCO]: data read-> data matched
+# ** Note: $finish    : i2c_tb.sv(49)
+#    Time: 10705 ns  Iteration: 4  Instance: /tb
+# 1
+# Break in Task post_test at i2c_tb.sv line 49
+# End time: 01:04:12 on Nov 15,2023, Elapsed time: 0:00:54
+# Errors: 0, Warnings: 0

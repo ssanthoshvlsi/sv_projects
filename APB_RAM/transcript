@@ -1,0 +1,191 @@
+# do run.do
+# QuestaSim-64 vlog 2021.2_1 Compiler 2021.05 May 15 2021
+# Start time: 09:02:03 on Dec 05,2023
+# vlog apb_ram_tb.sv 
+# -- Compiling module apb_ram
+# -- Compiling interface apb_if
+# -- Compiling package apb_ram_tb_sv_unit
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 09:02:04 on Dec 05,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" tb 
+# Start time: 09:02:04 on Dec 05,2023
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# //  Questa Sim-64
+# //  Version 2021.2_1 linux_x86_64 May 15 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.apb_ram_tb_sv_unit(fast)
+# Loading work.tb(fast)
+# Loading work.apb_if(fast__2)
+# Loading work.apb_ram(fast)
+# Loading work.apb_if(fast)
+# [DRV]: Reset Done
+# [GEN] OP:random paddr:4 pwdata:4 psel:0 penable:0 pwrite:1 prdata:0 pready:0 pslverr:0
+# [DRV]: random operation
+# [MON] Data write: 4 and addr: 4 write: 1
+# [SCO] data rcvd wdata: 4 rdata: 0 addr: 4 write: 1
+# [SCO] data stored data : 4 addr 4
+# [GEN] OP:read paddr:4 pwdata:2 psel:0 penable:0 pwrite:1 prdata:0 pready:0 pslverr:0
+# [DRV] data read oper addr: 4
+# [MN] Data read data: 4 and addr: 4 write: 0
+# [SCO] data rcvd wdata: 4 rdata: 4 addr: 4 write: 0
+# [SCO] data matched
+# [GEN] OP:write paddr:2 pwdata:6 psel:0 penable:0 pwrite:1 prdata:0 pready:0 pslverr:0
+# [MON] Data write: 6 and addr: 2 write: 1
+# [DRV] data write oper data: 6 and addr: 2
+# [SCO] data rcvd wdata: 6 rdata: 4 addr: 2 write: 1
+# [SCO] data stored data : 6 addr 2
+# [GEN] OP:error paddr:3 pwdata:5 psel:1 penable:0 pwrite:0 prdata:0 pready:0 pslverr:0
+# [DRV]: slv error
+# [MN] Data read data: x and addr: 48 write: 0
+# [SCO] data rcvd wdata: 6 rdata: 0 addr: 48 write: 0
+# [SCO] slv error detected
+# [GEN] OP:read paddr:2 pwdata:4 psel:0 penable:1 pwrite:0 prdata:0 pready:0 pslverr:0
+# [DRV] data read oper addr: 2
+# [MN] Data read data: 6 and addr: 2 write: 0
+# [SCO] data rcvd wdata: 6 rdata: 6 addr: 2 write: 0
+# [SCO] data matched
+# [GEN] OP:error paddr:4 pwdata:6 psel:1 penable:0 pwrite:1 prdata:0 pready:0 pslverr:0
+# [MON] Data write: 6 and addr: 93 write: 1
+# [DRV]: slv error
+# [SCO] data rcvd wdata: 6 rdata: 6 addr: 93 write: 1
+# [SCO] slv error detected
+# [GEN] OP:write paddr:2 pwdata:2 psel:0 penable:1 pwrite:0 prdata:0 pready:0 pslverr:0
+# [MON] Data write: 2 and addr: 2 write: 1
+# [DRV] data write oper data: 2 and addr: 2
+# [SCO] data rcvd wdata: 2 rdata: 6 addr: 2 write: 1
+# [SCO] data stored data : 2 addr 2
+# [GEN] OP:random paddr:4 pwdata:6 psel:1 penable:1 pwrite:0 prdata:0 pready:0 pslverr:0
+# [DRV]: random operation
+# [MN] Data read data: 4 and addr: 4 write: 0
+# [SCO] data rcvd wdata: 2 rdata: 4 addr: 4 write: 0
+# [SCO] data matched
+# [GEN] OP:write paddr:4 pwdata:2 psel:0 penable:1 pwrite:1 prdata:0 pready:0 pslverr:0
+# [MON] Data write: 2 and addr: 4 write: 1
+# [DRV] data write oper data: 2 and addr: 4
+# [SCO] data rcvd wdata: 2 rdata: 4 addr: 4 write: 1
+# [SCO] data stored data : 2 addr 4
+# [GEN] OP:error paddr:2 pwdata:8 psel:0 penable:0 pwrite:0 prdata:0 pready:0 pslverr:0
+# [DRV]: slv error
+# [MN] Data read data: x and addr: 100 write: 0
+# [SCO] data rcvd wdata: 2 rdata: 0 addr: 100 write: 0
+# [SCO] slv error detected
+# [GEN] OP:read paddr:4 pwdata:3 psel:1 penable:1 pwrite:1 prdata:0 pready:0 pslverr:0
+# [DRV] data read oper addr: 4
+# [MN] Data read data: 2 and addr: 4 write: 0
+# [SCO] data rcvd wdata: 2 rdata: 2 addr: 4 write: 0
+# [SCO] data matched
+# [GEN] OP:random paddr:3 pwdata:2 psel:0 penable:1 pwrite:0 prdata:0 pready:0 pslverr:0
+# [DRV]: random operation
+# [MN] Data read data: 0 and addr: 3 write: 0
+# [SCO] data rcvd wdata: 2 rdata: 0 addr: 3 write: 0
+# [SCO] data matched
+# [GEN] OP:random paddr:4 pwdata:9 psel:1 penable:1 pwrite:1 prdata:0 pready:0 pslverr:0
+# [MON] Data write: 9 and addr: 4 write: 1
+# [DRV]: random operation
+# [SCO] data rcvd wdata: 9 rdata: 0 addr: 4 write: 1
+# [SCO] data stored data : 9 addr 4
+# [GEN] OP:write paddr:2 pwdata:5 psel:0 penable:1 pwrite:0 prdata:0 pready:0 pslverr:0
+# [MON] Data write: 5 and addr: 2 write: 1
+# [DRV] data write oper data: 5 and addr: 2
+# [SCO] data rcvd wdata: 5 rdata: 0 addr: 2 write: 1
+# [SCO] data stored data : 5 addr 2
+# [GEN] OP:error paddr:3 pwdata:2 psel:1 penable:0 pwrite:1 prdata:0 pready:0 pslverr:0
+# [MON] Data write: 2 and addr: 49 write: 1
+# [DRV]: slv error
+# [SCO] data rcvd wdata: 2 rdata: 0 addr: 49 write: 1
+# [SCO] slv error detected
+# [GEN] OP:read paddr:4 pwdata:3 psel:1 penable:0 pwrite:1 prdata:0 pready:0 pslverr:0
+# [DRV] data read oper addr: 4
+# [MN] Data read data: 9 and addr: 4 write: 0
+# [SCO] data rcvd wdata: 2 rdata: 9 addr: 4 write: 0
+# [SCO] data matched
+# [GEN] OP:read paddr:4 pwdata:4 psel:0 penable:0 pwrite:1 prdata:0 pready:0 pslverr:0
+# [DRV] data read oper addr: 4
+# [MN] Data read data: 9 and addr: 4 write: 0
+# [SCO] data rcvd wdata: 2 rdata: 9 addr: 4 write: 0
+# [SCO] data matched
+# [GEN] OP:write paddr:2 pwdata:9 psel:0 penable:1 pwrite:0 prdata:0 pready:0 pslverr:0
+# [MON] Data write: 9 and addr: 2 write: 1
+# [DRV] data write oper data: 9 and addr: 2
+# [SCO] data rcvd wdata: 9 rdata: 9 addr: 2 write: 1
+# [SCO] data stored data : 9 addr 2
+# [GEN] OP:error paddr:4 pwdata:6 psel:1 penable:1 pwrite:0 prdata:0 pready:0 pslverr:0
+# [DRV]: slv error
+# [MN] Data read data: x and addr: 95 write: 0
+# [SCO] data rcvd wdata: 9 rdata: 0 addr: 95 write: 0
+# [SCO] slv error detected
+# [GEN] OP:random paddr:3 pwdata:4 psel:0 penable:1 pwrite:1 prdata:0 pready:0 pslverr:0
+# [MON] Data write: 4 and addr: 3 write: 1
+# [DRV]: random operation
+# [SCO] data rcvd wdata: 4 rdata: 0 addr: 3 write: 1
+# [SCO] data stored data : 4 addr 3
+# [GEN] OP:random paddr:3 pwdata:3 psel:1 penable:1 pwrite:1 prdata:0 pready:0 pslverr:0
+# [MON] Data write: 3 and addr: 3 write: 1
+# [DRV]: random operation
+# [SCO] data rcvd wdata: 3 rdata: 0 addr: 3 write: 1
+# [SCO] data stored data : 3 addr 3
+# [GEN] OP:write paddr:3 pwdata:5 psel:1 penable:0 pwrite:1 prdata:0 pready:0 pslverr:0
+# [MON] Data write: 5 and addr: 3 write: 1
+# [DRV] data write oper data: 5 and addr: 3
+# [SCO] data rcvd wdata: 5 rdata: 0 addr: 3 write: 1
+# [SCO] data stored data : 5 addr 3
+# [GEN] OP:error paddr:2 pwdata:9 psel:0 penable:1 pwrite:0 prdata:0 pready:0 pslverr:0
+# [DRV]: slv error
+# [MN] Data read data: x and addr: 88 write: 0
+# [SCO] data rcvd wdata: 5 rdata: 0 addr: 88 write: 0
+# [SCO] slv error detected
+# [GEN] OP:read paddr:4 pwdata:9 psel:1 penable:1 pwrite:0 prdata:0 pready:0 pslverr:0
+# [DRV] data read oper addr: 4
+# [MN] Data read data: 9 and addr: 4 write: 0
+# [SCO] data rcvd wdata: 5 rdata: 9 addr: 4 write: 0
+# [SCO] data matched
+# [GEN] OP:write paddr:2 pwdata:7 psel:0 penable:0 pwrite:0 prdata:0 pready:0 pslverr:0
+# [MON] Data write: 7 and addr: 2 write: 1
+# [DRV] data write oper data: 7 and addr: 2
+# [SCO] data rcvd wdata: 7 rdata: 9 addr: 2 write: 1
+# [SCO] data stored data : 7 addr 2
+# [GEN] OP:random paddr:2 pwdata:5 psel:1 penable:0 pwrite:1 prdata:0 pready:0 pslverr:0
+# [MON] Data write: 5 and addr: 2 write: 1
+# [DRV]: random operation
+# [SCO] data rcvd wdata: 5 rdata: 9 addr: 2 write: 1
+# [SCO] data stored data : 5 addr 2
+# [GEN] OP:read paddr:3 pwdata:4 psel:0 penable:0 pwrite:0 prdata:0 pready:0 pslverr:0
+# [DRV] data read oper addr: 3
+# [MN] Data read data: 5 and addr: 3 write: 0
+# [SCO] data rcvd wdata: 5 rdata: 5 addr: 3 write: 0
+# [SCO] data matched
+# [GEN] OP:error paddr:3 pwdata:3 psel:1 penable:0 pwrite:0 prdata:0 pready:0 pslverr:0
+# [DRV]: slv error
+# [MN] Data read data: x and addr: 48 write: 0
+# [SCO] data rcvd wdata: 5 rdata: 0 addr: 48 write: 0
+# [SCO] slv error detected
+# [GEN] OP:read paddr:4 pwdata:4 psel:0 penable:1 pwrite:0 prdata:0 pready:0 pslverr:0
+# [DRV] data read oper addr: 4
+# [MN] Data read data: 9 and addr: 4 write: 0
+# [SCO] data rcvd wdata: 5 rdata: 9 addr: 4 write: 0
+# [SCO] data matched
+# [GEN] OP:random paddr:2 pwdata:3 psel:0 penable:0 pwrite:1 prdata:0 pready:0 pslverr:0
+# [MON] Data write: 3 and addr: 2 write: 1
+# [DRV]: random operation
+# [SCO] data rcvd wdata: 3 rdata: 9 addr: 2 write: 1
+# [SCO] data stored data : 3 addr 2
+# ** Note: $finish    : apb_ram_env.sv(39)
+#    Time: 3190 ns  Iteration: 3  Instance: /tb
+# End time: 09:02:05 on Dec 05,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

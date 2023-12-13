@@ -1,0 +1,143 @@
+# //  Questa Sim-64
+# //  Version 2021.2_1 linux_x86_64 May 15 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+do run.do
+# QuestaSim-64 vlog 2021.2_1 Compiler 2021.05 May 15 2021
+# Start time: 06:56:27 on Nov 08,2023
+# vlog -reportprogress 300 dff_tb.sv 
+# -- Compiling module dff
+# -- Compiling interface dff_if
+# -- Compiling package dff_tb_sv_unit
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 06:56:27 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" tb 
+# Start time: 06:56:27 on Nov 08,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.dff_tb_sv_unit(fast)
+# Loading work.tb(fast)
+# Loading work.dff_if(fast__2)
+# Loading work.dff(fast)
+# Loading work.dff_if(fast)
+# [DRV] dut reset done
+# [GEN]: din 1 dout 0
+# [DRV]: din 1 dout 0
+# [MON]: din 1 dout 1
+# [SCO]: din 1 dout 1
+# [SCO]: Data matched
+# [GEN]: din 1 dout 0
+# [DRV]: din 1 dout 0
+# [MON]: din 1 dout 1
+# [SCO]: din 1 dout 1
+# [SCO]: Data matched
+# [GEN]: din 1 dout 0
+# [DRV]: din 1 dout 0
+# [MON]: din 1 dout 1
+# [SCO]: din 1 dout 1
+# [SCO]: Data matched
+# [GEN]: din 0 dout 0
+# [DRV]: din 0 dout 0
+# [MON]: din 0 dout 0
+# [SCO]: din 0 dout 0
+# [SCO]: Data matched
+# [GEN]: din 0 dout 0
+# [DRV]: din 0 dout 0
+# [MON]: din 0 dout 0
+# [SCO]: din 0 dout 0
+# [SCO]: Data matched
+# [GEN]: din 0 dout 0
+# [DRV]: din 0 dout 0
+# [MON]: din 0 dout 0
+# [SCO]: din 0 dout 0
+# [SCO]: Data matched
+# [GEN]: din 0 dout 0
+# [DRV]: din 0 dout 0
+# [MON]: din 0 dout 0
+# [SCO]: din 0 dout 0
+# [SCO]: Data matched
+# [GEN]: din 1 dout 0
+# [DRV]: din 1 dout 0
+# [MON]: din 1 dout 1
+# [SCO]: din 1 dout 1
+# [SCO]: Data matched
+# [GEN]: din 0 dout 0
+# [DRV]: din 0 dout 0
+# [MON]: din 0 dout 0
+# [SCO]: din 0 dout 0
+# [SCO]: Data matched
+# [GEN]: din 1 dout 0
+# [DRV]: din 1 dout 0
+# [MON]: din 1 dout 1
+# [SCO]: din 1 dout 1
+# [SCO]: Data matched
+# [GEN]: din 0 dout 0
+# [DRV]: din 0 dout 0
+# [MON]: din 0 dout 0
+# [SCO]: din 0 dout 0
+# [SCO]: Data matched
+# [GEN]: din 1 dout 0
+# [DRV]: din 1 dout 0
+# [MON]: din 1 dout 1
+# [SCO]: din 1 dout 1
+# [SCO]: Data matched
+# [GEN]: din 1 dout 0
+# [DRV]: din 1 dout 0
+# [MON]: din 1 dout 1
+# [SCO]: din 1 dout 1
+# [SCO]: Data matched
+# [GEN]: din 0 dout 0
+# [DRV]: din 0 dout 0
+# [MON]: din 0 dout 0
+# [SCO]: din 0 dout 0
+# [SCO]: Data matched
+# [GEN]: din 0 dout 0
+# [DRV]: din 0 dout 0
+# [MON]: din 0 dout 0
+# [SCO]: din 0 dout 0
+# [SCO]: Data matched
+# [GEN]: din 1 dout 0
+# [DRV]: din 1 dout 0
+# [MON]: din 1 dout 1
+# [SCO]: din 1 dout 1
+# [SCO]: Data matched
+# [GEN]: din 1 dout 0
+# [DRV]: din 1 dout 0
+# [MON]: din 1 dout 1
+# [SCO]: din 1 dout 1
+# [SCO]: Data matched
+# [GEN]: din 1 dout 0
+# [DRV]: din 1 dout 0
+# [MON]: din 1 dout 1
+# [SCO]: din 1 dout 1
+# [SCO]: Data matched
+# [GEN]: din 0 dout 0
+# [DRV]: din 0 dout 0
+# [MON]: din 0 dout 0
+# [SCO]: din 0 dout 0
+# [SCO]: Data matched
+# [GEN]: din 0 dout 0
+# [DRV]: din 0 dout 0
+# [MON]: din 0 dout 0
+# [SCO]: din 0 dout 0
+# [SCO]: Data matched
+# ** Note: $finish    : dff_env.sv(36)
+#    Time: 920 ns  Iteration: 3  Instance: /tb
+# 1
+# Break in Task dff_tb_sv_unit/environment::post_test at dff_env.sv line 36
+# End time: 06:59:29 on Nov 08,2023, Elapsed time: 0:03:02
+# Errors: 0, Warnings: 0

@@ -1,0 +1,25 @@
+$date
+	Wed Nov  8 06:56:31 2023
+$end
+$version
+	QuestaSim Version 2021.2_1
+$end
+$timescale
+	1ns
+$end
+
+$scope module tb $end
+
+$scope module dut $end
+$upscope $end
+$upscope $end
+
+$scope begin dff_tb_sv_unit $end
+$upscope $end
+
+$scope begin std $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+$end

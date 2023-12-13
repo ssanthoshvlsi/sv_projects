@@ -1,0 +1,188 @@
+m255
+K4
+z2
+!s99 nomlopt
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/santhosh/Documents/SV_Projects/I2C
+T_opt
+!s11d i2c_tb_sv_unit /home/santhosh/Documents/SV_Projects/I2C/work 1 i2c_if 1 /home/santhosh/Documents/SV_Projects/I2C/work 
+!s110 1699990265
+V[B29^zoUX5zHJ]8`TZ:LU0
+04 2 4 work tb fast 0
+=1-000ae431a4f1-6553caf9-2d84f-1ea5
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2021.2_1;73
+R0
+veeprom
+Z2 !s105 i2c_tb_sv_unit
+Z3 DXx4 work 14 i2c_tb_sv_unit 0 22 6f`DM@Az5CZEBK8N6P=PH3
+Z4 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z5 !s110 1699990397
+!i10b 1
+!s100 TQ1h2XbYkQg7D1[<S`9Q43
+IROj0iD=UQG5<6dF_2YQ;Z0
+S1
+R0
+w1699989267
+8eeprom.sv
+Z6 Feeprom.sv
+!i122 12
+L0 1 166
+Z7 VDg1SIo80bB@j0V0VzS_@n1
+Z8 OL;L;2021.2_1;73
+r1
+!s85 0
+31
+Z9 !s108 1699990397.000000
+!s107 i2c_sco.sv|i2c_mon.sv|i2c_drv.sv|i2c_gen.sv|i2c_trans.sv|i2c_mem.sv|eeprom.sv|i2c.sv|i2c_tb.sv|
+Z10 !s90 -reportprogress|300|i2c_tb.sv|
+!i113 0
+Z11 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vi2c
+R2
+R3
+R4
+R5
+!i10b 1
+!s100 A:06Mic]o^8R@XUWRWL_S1
+I418PP;PeIZdSCAancfI?F1
+S1
+R0
+Z12 w1699987508
+Z13 8i2c.sv
+Z14 Fi2c.sv
+!i122 12
+L0 3 15
+R7
+R8
+r1
+!s85 0
+31
+R9
+Z15 !s107 i2c_sco.sv|i2c_mon.sv|i2c_drv.sv|i2c_gen.sv|i2c_trans.sv|i2c_mem.sv|eeprom.sv|i2c.sv|i2c_tb.sv|
+R10
+!i113 0
+R11
+R1
+Yi2c_if
+R2
+R3
+R4
+R5
+!i10b 1
+!s100 6zoM=zAffn=5zQfmj?Lo70
+Ig_CYBc`2<agizU^<h>MWL0
+S1
+R0
+R12
+R13
+R14
+!i122 12
+L0 18 0
+R7
+R8
+r1
+!s85 0
+31
+R9
+R15
+R10
+!i113 0
+R11
+R1
+Xi2c_tb_sv_unit
+!s115 i2c_if
+R4
+R5
+V6f`DM@Az5CZEBK8N6P=PH3
+r1
+!s85 0
+!i10b 1
+!s100 _5lKNXPNX]nam?<C[H<Lh3
+I6f`DM@Az5CZEBK8N6P=PH3
+!i103 1
+S1
+R0
+Z16 w1699990254
+Z17 8i2c_tb.sv
+Z18 Fi2c_tb.sv
+R14
+R6
+Z19 Fi2c_mem.sv
+Fi2c_trans.sv
+Fi2c_gen.sv
+Fi2c_drv.sv
+Fi2c_mon.sv
+Fi2c_sco.sv
+!i122 12
+L0 1 0
+R8
+31
+R9
+R15
+R10
+!i113 0
+R11
+R1
+vi2cmem
+R2
+R3
+R4
+R5
+!i10b 1
+!s100 MCSa[B97M`fjzU^XS`[5A0
+IN=c=I>GYQInK@h=YG]SSi1
+S1
+R0
+w1699989476
+8i2c_mem.sv
+R19
+!i122 12
+L0 1 116
+R7
+R8
+r1
+!s85 0
+31
+R9
+R15
+R10
+!i113 0
+R11
+R1
+vtb
+R4
+R3
+R5
+R7
+r1
+!s85 0
+!i10b 1
+!s100 9:KVDR0CfnbhRL>fCP_z`3
+ITjgn[D_2M`E:geg4OdE@20
+R2
+S1
+R0
+R16
+R17
+R18
+!i122 12
+L0 7 58
+R8
+31
+R9
+R15
+R10
+!i113 0
+R11
+R1

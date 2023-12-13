@@ -1,0 +1,169 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/home/santhosh/Documents/SV_Projects/SPI
+T_opt
+Z2 !s11d spi_tb_sv_unit /home/santhosh/Documents/SV_Projects/SPI/work 1 spi_if 1 /home/santhosh/Documents/SV_Projects/SPI/work 
+Z3 !s110 1698888859
+V:XaRCCAK>e5kOPb87:4cD3
+Z4 04 2 4 work tb fast 0
+=1-000ae431a4f1-6542fc9b-2a976-1365
+Z5 !s124 OEM100
+Z6 o-quiet -auto_acc_if_foreign -work work +acc
+Z7 tCvgOpt 0
+n@_opt
+Z8 OL;O;2021.2_1;73
+T_opt1
+R2
+!s110 1698888801
+VmORVk[D7MYBP2F_Nc5L1X1
+R4
+=1-000ae431a4f1-6542fc61-6f5ff-12f9
+R5
+R6
+R7
+n@_opt1
+R8
+R1
+vspi
+Z9 !s105 spi_tb_sv_unit
+Z10 DXx4 work 14 spi_tb_sv_unit 0 22 1LmggOg;`>HBFnW4:]6?n0
+Z11 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+R3
+!i10b 1
+!s100 7NZCI=>`<8ESIZSgSY^DH2
+I6_iXKnWj5^31l7<fQO@342
+S1
+R1
+Z12 w1698888579
+Z13 8spi.sv
+Z14 Fspi.sv
+!i122 43
+L0 1 59
+Z15 VDg1SIo80bB@j0V0VzS_@n1
+Z16 OL;L;2021.2_1;73
+r1
+!s85 0
+31
+Z17 !s108 1698888859.000000
+Z18 !s107 spi_env.sv|spi_sco.sv|spi_mon.sv|spi_drv.sv|spi_gen.sv|spi_trans.sv|spi.sv|spi_tb.sv|
+Z19 !s90 spi_tb.sv|
+!i113 0
+Z20 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R7
+Yspi_if
+R9
+R10
+R11
+R3
+!i10b 1
+!s100 8nH6F[j4LAlTK]QBnhQkP2
+I>Z5Q<LE@ODV>SGK5R1K@k1
+S1
+R1
+R12
+R13
+R14
+!i122 43
+L0 61 0
+R15
+R16
+r1
+!s85 0
+31
+R17
+R18
+R19
+!i113 0
+R20
+R7
+Xspi_tb_sv_unit
+!s115 spi_if
+R11
+R3
+V1LmggOg;`>HBFnW4:]6?n0
+r1
+!s85 0
+!i10b 1
+!s100 `k90[g1[ReM>EF4^CfPDj0
+I1LmggOg;`>HBFnW4:]6?n0
+!i103 1
+S1
+R1
+w1698888798
+Z21 8spi_tb.sv
+Z22 Fspi_tb.sv
+R14
+Fspi_trans.sv
+Fspi_gen.sv
+Fspi_drv.sv
+Fspi_mon.sv
+Fspi_sco.sv
+Fspi_env.sv
+!i122 43
+L0 1 0
+R16
+31
+R17
+R18
+R19
+!i113 0
+R20
+R7
+vtb
+R11
+R10
+R3
+R15
+r1
+!s85 0
+!i10b 1
+!s100 `1CD7Z>E2fGQF6beW?m6c0
+I6?CT;TEIIH58PE`L:g[QQ0
+R9
+S1
+R1
+w1698865173
+R21
+R22
+!i122 43
+L0 95 18
+R16
+31
+R17
+R18
+R19
+!i113 0
+R20
+R7

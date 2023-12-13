@@ -1,0 +1,143 @@
+# //  Questa Sim-64
+# //  Version 2021.2_1 linux_x86_64 May 15 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+do run.do
+# QuestaSim-64 vlog 2021.2_1 Compiler 2021.05 May 15 2021
+# Start time: 19:08:35 on Nov 22,2023
+# vlog -reportprogress 300 fifo_tb.sv 
+# -- Compiling module fifo
+# -- Compiling interface fifo_if
+# -- Compiling package fifo_tb_sv_unit
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 19:08:35 on Nov 22,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" tb 
+# Start time: 19:08:35 on Nov 22,2023
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.fifo_tb_sv_unit(fast)
+# Loading work.tb(fast)
+# Loading work.fifo_if(fast__2)
+# Loading work.fifo(fast)
+# Loading work.fifo_if(fast)
+# [DRV]: DUT reset done
+# [GEN]: wr : 1 	 rd : 0 	 datawr : 4 	 datard : 0 	 full = 0 	 empty : 0 @ 90
+# [DRV]: wr : 1 	 rd : 0 	 datawr : 4 	 datard : 0 	 full = 0 	 empty : 0 @ 90
+# [MON]: wr : 1 	 rd : 0 	 datawr : 4 	 datard : 0 	 full = 0 	 empty : 0 @ 130
+# [SCO]: wr : 1 	 rd : 0 	 datawr : 4 	 datard : 0 	 full = 0 	 empty : 0 @ 130
+# [SCO]: data stored in queue: 4
+# [GEN]: wr : 1 	 rd : 0 	 datawr : 3 	 datard : 0 	 full = 0 	 empty : 0 @ 130
+# [DRV]: wr : 1 	 rd : 0 	 datawr : 3 	 datard : 0 	 full = 0 	 empty : 0 @ 130
+# [MON]: wr : 1 	 rd : 0 	 datawr : 3 	 datard : 0 	 full = 0 	 empty : 0 @ 170
+# [SCO]: wr : 1 	 rd : 0 	 datawr : 3 	 datard : 0 	 full = 0 	 empty : 0 @ 170
+# [SCO]: data stored in queue: 3
+# [GEN]: wr : 1 	 rd : 0 	 datawr : 2 	 datard : 0 	 full = 0 	 empty : 0 @ 170
+# [DRV]: wr : 1 	 rd : 0 	 datawr : 2 	 datard : 0 	 full = 0 	 empty : 0 @ 170
+# [MON]: wr : 1 	 rd : 0 	 datawr : 2 	 datard : 0 	 full = 0 	 empty : 0 @ 210
+# [SCO]: wr : 1 	 rd : 0 	 datawr : 2 	 datard : 0 	 full = 0 	 empty : 0 @ 210
+# [SCO]: data stored in queue: 2
+# [GEN]: wr : 0 	 rd : 1 	 datawr : 3 	 datard : 0 	 full = 0 	 empty : 0 @ 210
+# [DRV]: wr : 0 	 rd : 1 	 datawr : 3 	 datard : 0 	 full = 0 	 empty : 0 @ 210
+# [MON]: wr : 0 	 rd : 1 	 datawr : 3 	 datard : 4 	 full = 0 	 empty : 0 @ 250
+# [SCO]: wr : 0 	 rd : 1 	 datawr : 3 	 datard : 4 	 full = 0 	 empty : 0 @ 250
+# [SCO]: data match
+# [GEN]: wr : 1 	 rd : 0 	 datawr : 3 	 datard : 0 	 full = 0 	 empty : 0 @ 250
+# [DRV]: wr : 1 	 rd : 0 	 datawr : 3 	 datard : 0 	 full = 0 	 empty : 0 @ 250
+# [MON]: wr : 1 	 rd : 0 	 datawr : 3 	 datard : 4 	 full = 0 	 empty : 0 @ 290
+# [SCO]: wr : 1 	 rd : 0 	 datawr : 3 	 datard : 4 	 full = 0 	 empty : 0 @ 290
+# [SCO]: data stored in queue: 3
+# [GEN]: wr : 0 	 rd : 1 	 datawr : 3 	 datard : 0 	 full = 0 	 empty : 0 @ 290
+# [DRV]: wr : 0 	 rd : 1 	 datawr : 3 	 datard : 0 	 full = 0 	 empty : 0 @ 290
+# [MON]: wr : 0 	 rd : 1 	 datawr : 3 	 datard : 3 	 full = 0 	 empty : 0 @ 330
+# [SCO]: wr : 0 	 rd : 1 	 datawr : 3 	 datard : 3 	 full = 0 	 empty : 0 @ 330
+# [SCO]: data match
+# [GEN]: wr : 0 	 rd : 1 	 datawr : 2 	 datard : 0 	 full = 0 	 empty : 0 @ 330
+# [DRV]: wr : 0 	 rd : 1 	 datawr : 2 	 datard : 0 	 full = 0 	 empty : 0 @ 330
+# [MON]: wr : 0 	 rd : 1 	 datawr : 2 	 datard : 2 	 full = 0 	 empty : 0 @ 370
+# [SCO]: wr : 0 	 rd : 1 	 datawr : 2 	 datard : 2 	 full = 0 	 empty : 0 @ 370
+# [SCO]: data match
+# [GEN]: wr : 1 	 rd : 0 	 datawr : 2 	 datard : 0 	 full = 0 	 empty : 0 @ 370
+# [DRV]: wr : 1 	 rd : 0 	 datawr : 2 	 datard : 0 	 full = 0 	 empty : 0 @ 370
+# [MON]: wr : 1 	 rd : 0 	 datawr : 2 	 datard : 2 	 full = 0 	 empty : 0 @ 410
+# [SCO]: wr : 1 	 rd : 0 	 datawr : 2 	 datard : 2 	 full = 0 	 empty : 0 @ 410
+# [SCO]: data stored in queue: 2
+# [GEN]: wr : 1 	 rd : 0 	 datawr : 4 	 datard : 0 	 full = 0 	 empty : 0 @ 410
+# [DRV]: wr : 1 	 rd : 0 	 datawr : 4 	 datard : 0 	 full = 0 	 empty : 0 @ 410
+# [MON]: wr : 1 	 rd : 0 	 datawr : 4 	 datard : 2 	 full = 0 	 empty : 0 @ 450
+# [SCO]: wr : 1 	 rd : 0 	 datawr : 4 	 datard : 2 	 full = 0 	 empty : 0 @ 450
+# [SCO]: data stored in queue: 4
+# [GEN]: wr : 1 	 rd : 0 	 datawr : 2 	 datard : 0 	 full = 0 	 empty : 0 @ 450
+# [DRV]: wr : 1 	 rd : 0 	 datawr : 2 	 datard : 0 	 full = 0 	 empty : 0 @ 450
+# [MON]: wr : 1 	 rd : 0 	 datawr : 2 	 datard : 2 	 full = 0 	 empty : 0 @ 490
+# [SCO]: wr : 1 	 rd : 0 	 datawr : 2 	 datard : 2 	 full = 0 	 empty : 0 @ 490
+# [SCO]: data stored in queue: 2
+# [GEN]: wr : 1 	 rd : 0 	 datawr : 4 	 datard : 0 	 full = 0 	 empty : 0 @ 490
+# [DRV]: wr : 1 	 rd : 0 	 datawr : 4 	 datard : 0 	 full = 0 	 empty : 0 @ 490
+# [MON]: wr : 1 	 rd : 0 	 datawr : 4 	 datard : 2 	 full = 0 	 empty : 0 @ 530
+# [SCO]: wr : 1 	 rd : 0 	 datawr : 4 	 datard : 2 	 full = 0 	 empty : 0 @ 530
+# [SCO]: data stored in queue: 4
+# [GEN]: wr : 0 	 rd : 1 	 datawr : 3 	 datard : 0 	 full = 0 	 empty : 0 @ 530
+# [DRV]: wr : 0 	 rd : 1 	 datawr : 3 	 datard : 0 	 full = 0 	 empty : 0 @ 530
+# [MON]: wr : 0 	 rd : 1 	 datawr : 3 	 datard : 3 	 full = 0 	 empty : 0 @ 570
+# [SCO]: wr : 0 	 rd : 1 	 datawr : 3 	 datard : 3 	 full = 0 	 empty : 0 @ 570
+# [SCO]: data match
+# [GEN]: wr : 1 	 rd : 0 	 datawr : 3 	 datard : 0 	 full = 0 	 empty : 0 @ 570
+# [DRV]: wr : 1 	 rd : 0 	 datawr : 3 	 datard : 0 	 full = 0 	 empty : 0 @ 570
+# [MON]: wr : 1 	 rd : 0 	 datawr : 3 	 datard : 3 	 full = 0 	 empty : 0 @ 610
+# [SCO]: wr : 1 	 rd : 0 	 datawr : 3 	 datard : 3 	 full = 0 	 empty : 0 @ 610
+# [SCO]: data stored in queue: 3
+# [GEN]: wr : 1 	 rd : 0 	 datawr : 3 	 datard : 0 	 full = 0 	 empty : 0 @ 610
+# [DRV]: wr : 1 	 rd : 0 	 datawr : 3 	 datard : 0 	 full = 0 	 empty : 0 @ 610
+# [MON]: wr : 1 	 rd : 0 	 datawr : 3 	 datard : 3 	 full = 0 	 empty : 0 @ 650
+# [SCO]: wr : 1 	 rd : 0 	 datawr : 3 	 datard : 3 	 full = 0 	 empty : 0 @ 650
+# [SCO]: data stored in queue: 3
+# [GEN]: wr : 0 	 rd : 1 	 datawr : 3 	 datard : 0 	 full = 0 	 empty : 0 @ 650
+# [DRV]: wr : 0 	 rd : 1 	 datawr : 3 	 datard : 0 	 full = 0 	 empty : 0 @ 650
+# [MON]: wr : 0 	 rd : 1 	 datawr : 3 	 datard : 2 	 full = 0 	 empty : 0 @ 690
+# [SCO]: wr : 0 	 rd : 1 	 datawr : 3 	 datard : 2 	 full = 0 	 empty : 0 @ 690
+# [SCO]: data match
+# [GEN]: wr : 1 	 rd : 0 	 datawr : 4 	 datard : 0 	 full = 0 	 empty : 0 @ 690
+# [DRV]: wr : 1 	 rd : 0 	 datawr : 4 	 datard : 0 	 full = 0 	 empty : 0 @ 690
+# [MON]: wr : 1 	 rd : 0 	 datawr : 4 	 datard : 2 	 full = 0 	 empty : 0 @ 730
+# [SCO]: wr : 1 	 rd : 0 	 datawr : 4 	 datard : 2 	 full = 0 	 empty : 0 @ 730
+# [SCO]: data stored in queue: 4
+# [GEN]: wr : 1 	 rd : 0 	 datawr : 3 	 datard : 0 	 full = 0 	 empty : 0 @ 730
+# [DRV]: wr : 1 	 rd : 0 	 datawr : 3 	 datard : 0 	 full = 0 	 empty : 0 @ 730
+# [MON]: wr : 1 	 rd : 0 	 datawr : 3 	 datard : 2 	 full = 0 	 empty : 0 @ 770
+# [SCO]: wr : 1 	 rd : 0 	 datawr : 3 	 datard : 2 	 full = 0 	 empty : 0 @ 770
+# [SCO]: data stored in queue: 3
+# [GEN]: wr : 0 	 rd : 1 	 datawr : 2 	 datard : 0 	 full = 0 	 empty : 0 @ 770
+# [DRV]: wr : 0 	 rd : 1 	 datawr : 2 	 datard : 0 	 full = 0 	 empty : 0 @ 770
+# [MON]: wr : 0 	 rd : 1 	 datawr : 2 	 datard : 4 	 full = 0 	 empty : 0 @ 810
+# [SCO]: wr : 0 	 rd : 1 	 datawr : 2 	 datard : 4 	 full = 0 	 empty : 0 @ 810
+# [SCO]: data match
+# [GEN]: wr : 1 	 rd : 0 	 datawr : 3 	 datard : 0 	 full = 0 	 empty : 0 @ 810
+# [DRV]: wr : 1 	 rd : 0 	 datawr : 3 	 datard : 0 	 full = 0 	 empty : 0 @ 810
+# [MON]: wr : 1 	 rd : 0 	 datawr : 3 	 datard : 4 	 full = 0 	 empty : 0 @ 850
+# [SCO]: wr : 1 	 rd : 0 	 datawr : 3 	 datard : 4 	 full = 0 	 empty : 0 @ 850
+# [SCO]: data stored in queue: 3
+# [GEN]: wr : 1 	 rd : 0 	 datawr : 3 	 datard : 0 	 full = 0 	 empty : 0 @ 850
+# [DRV]: wr : 1 	 rd : 0 	 datawr : 3 	 datard : 0 	 full = 0 	 empty : 0 @ 850
+# [MON]: wr : 1 	 rd : 0 	 datawr : 3 	 datard : 4 	 full = 0 	 empty : 0 @ 890
+# [SCO]: wr : 1 	 rd : 0 	 datawr : 3 	 datard : 4 	 full = 0 	 empty : 0 @ 890
+# [SCO]: data stored in queue: 3
+# ** Note: $finish    : fifo_env.sv(36)
+#    Time: 890 ns  Iteration: 3  Instance: /tb
+# 1
+# Break in Task fifo_tb_sv_unit/environment::post_test at fifo_env.sv line 36
+# End time: 19:10:01 on Nov 22,2023, Elapsed time: 0:01:26
+# Errors: 0, Warnings: 0
